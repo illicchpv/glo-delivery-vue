@@ -4,6 +4,9 @@ https://www.figma.com/design/qMHboUlxcmqutWX8tjJYbd/Delivery-Food--Copy---Copy-?
 // https://www.figma.com/design/jvdXKoLWJcJOX3nwiSyfCo/Delivery-Food--Copy-?node-id=230-22216&p=f&t=53je2ShaVMhuvPyk-0
 
 
+github:
+https://github.com/illicchpv/glo-delivery-vue
+
 ---
 
 ## Урок 3.
