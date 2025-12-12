@@ -4,18 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>delivery</title>
+  <title>Delivery Food | Main</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-  <link href="style.css" rel="stylesheet">
-  <link href="style.media.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./css/style.media.css" rel="stylesheet">
+
+  <script src="./js/index.js" defer></script>
 </head>
 
 <body>
   <div class="page-wrapper">
+
     <header class="header">
       <div class="container">
         <div class="header-box">
@@ -32,7 +35,7 @@
               </svg>
               Войти
             </button>
-            <button class="btn btn-outline" type="button" aria-label="корзина товаров">
+            <button class="btn btn-outline" id="cart-button" type="button" aria-label="корзина товаров">
               <svg aria-hidden="true" focusable="false" width="15" height="13" viewBox="0 0 15 13" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -75,7 +78,7 @@
             <input class="products-header--search" type="text" placeholder="Поиск блюд и ресторанов" />
           </div>
 
-          <div class="products-wrapper">
+          <div class="products-wrapper" id="rests-container">
             <a class="products-card"  href="./goods.html">
               <div class="products-card__image">
                 <img src="./images/rest/image1.jpg" alt="Пицца плюс.">
