@@ -75,3 +75,26 @@
 - проверить ошибки в консоли
 
 ---
+
+## Урок 8. Vue.JS
+
+> node -v  cls
+> npm -v  
+> npm install -g @vue/cli
+> npm create vue@latest
+
+### материалы:
+- Ru документация Vue.JS: [ссылка:](https://ru.vuejs.org/guide/quick-start.html#npm)
+- -/- [ссылка:](https://ru.vuejs.org/v2/guide/)
+- En документация Vue.JS: [ссылка:](https://vuejs.org/guide/quick-start.html)
+- Node.js. [ссылка:](https://nodejs.org/en/)
+- Vue CLI. [ссылка:](https://cli.vuejs.org/guide/installation.html)
+
+### задание
+- повторить за уроком
+- сдать задание github
+
+### усложнённое 
+- переработать ссылки в футере в формат
+- выполнить тот же функционал для второй странички. Выводить карточки перебором из массива
+
