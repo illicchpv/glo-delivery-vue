@@ -72,7 +72,6 @@
 
 <script setup>
   const {title, isOpen} = defineProps({title: String, isOpen: Boolean})
-  console.log('props: ', title, isOpen);
 
   const emit = defineEmits(['toggleModal'])
   const closeModal = () => {
