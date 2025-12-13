@@ -1,3 +1,7 @@
+---
+---
+---
+
 
 [макет:](https://www.figma.com/design/qMHboUlxcmqutWX8tjJYbd/Delivery-Food--Copy---Copy-?node-id=230-22216&p=f&t=tIHxmbPGJpd8HNIV-0)
 // https://www.figma.com/design/jvdXKoLWJcJOX3nwiSyfCo/Delivery-Food--Copy-?node-id=230-22216&p=f&t=53je2ShaVMhuvPyk-0
@@ -93,6 +97,8 @@
 │  ◻ Prettier (code formatting)
 └
 
+> npm i
+
 ### материалы:
 - Ru документация Vue.JS: [ссылка:](https://ru.vuejs.org/guide/quick-start.html#npm)
 - -/- [ссылка:](https://ru.vuejs.org/v2/guide/)
@@ -107,4 +113,48 @@
 ### усложнённое 
 - переработать ссылки в футере в формат
 - выполнить тот же функционал для второй странички. Выводить карточки перебором из массива
+
+
+---
+---
+---
+# .
+
+This template should help get you started developing with Vue 3 in Vite.
+
+## Recommended IDE Setup
+
+[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+
+## Recommended Browser Setup
+
+- Chromium-based browsers (Chrome, Edge, Brave, etc.):
+  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
+  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
+- Firefox:
+  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
+  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vite.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+
 
