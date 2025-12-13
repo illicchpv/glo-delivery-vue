@@ -1,0 +1,23 @@
+@media (max-width: 991px) {
+  .banner-item-title {
+    max-width: 100%;
+  }
+
+  .banner-item-subtitle {
+    max-width: 100%;
+  }
+
+  .banner-item {
+    background: var(--calendula-gold---gold-2);
+  }
+
+  .products-card {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+@media (max-width: 768px) {
+  .products-card {
+    width: 100%;
+  }
+}

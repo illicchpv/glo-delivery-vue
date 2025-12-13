@@ -1,11 +1,28 @@
-<script setup></script>
+<script setup>
+import Footer from '@/components/Footer.vue';
+import Header from '@/components/Header.vue';
+import Modal from './components/Modal.vue';
+import { ref } from 'vue';
+
+const isOpen = ref(false);
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div class="page-wrapper">
+
+    <Header @toggleModal="isOpen = !isOpen"></Header>
+
+    <main class="main">
+
+      <router-view></router-view>
+
+    </main>
+
+    <Modal title="modal tittle" :isOpen="isOpen" @toggleModal="isOpen = !isOpen"></Modal>
+
+    <Footer></Footer>
+
+  </div>
 </template>
 
 <style scoped></style>
